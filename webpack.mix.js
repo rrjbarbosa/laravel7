@@ -22,3 +22,4 @@ mix.styles([
 
     .version();                                     //---Para não ter problemas com cash de css... essa função cria o arquivo mix-manifest.json
 
+            //---Para não ter problemas com cash de css... essa função cria o arquivo mix-manifest.json

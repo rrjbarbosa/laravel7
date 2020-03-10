@@ -63,6 +63,7 @@
             }
         </style>
         <link rel="stylesheet" href="{{url(mix('css/style.css'))}}">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -85,6 +86,10 @@
                     Laravel
                 </div>
                 <p class="a">teste</p>
+                <br>
+                <p>Teste funcionamento do bootstrap</p>
+                <button class="btn btn-sm btn-success">Bootstrap padrão</button>
+                <button class="btn btn-sm btn-orange">Bootstrap Personalizado </button>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -99,5 +104,7 @@
             </div>
         </div>
         <script src="{{url(mix('js/script.js'))}}"></script>
+        <script src="{{asset('js/jquery.js')}}"></script>
+        <script src="{{asset('js/bootstrap.js')}}"></script>
     </body>
 </html>
